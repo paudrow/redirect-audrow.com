@@ -2,7 +2,7 @@ const express = require('express');
 const app = express();
 
 app.get('*', (req, res) => {
-  res.redirect('https://audrownashpodcast.com/');
+  res.redirect('https://audrow.com/');
 });
 
 const port = process.env.PORT || 3000;
